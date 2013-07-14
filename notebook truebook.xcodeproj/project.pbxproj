@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D87CC7CA169C775800289DFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87CC7C9169C775800289DFA /* UIKit.framework */; };
+		D87CC7CC169C775800289DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87CC7CB169C775800289DFA /* Foundation.framework */; };
+		D87CC7CE169C775900289DFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87CC7CD169C775800289DFA /* CoreGraphics.framework */; };
+		D87CC7D4169C775900289DFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D87CC7D2169C775900289DFA /* InfoPlist.strings */; };
+		D87CC7D6169C775900289DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D87CC7D5169C775900289DFA /* main.m */; };
+		D87CC7DA169C775900289DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D87CC7D9169C775900289DFA /* AppDelegate.m */; };
+		D87CC7DD169C775900289DFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87CC7DC169C775900289DFA /* ViewController.m */; };
+		D87CC7E0169C775900289DFA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87CC7DE169C775900289DFA /* ViewController.xib */; };
+		D893C8D6169D872B009C5488 /* MainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D893C8D4169D872B009C5488 /* MainTable.m */; };
+		D893C8D7169D872B009C5488 /* MainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D893C8D5169D872B009C5488 /* MainTable.xib */; };
+		D893C8DC169D8CED009C5488 /* AddPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D893C8DA169D8CED009C5488 /* AddPage.m */; };
+		D893C8DD169D8CED009C5488 /* AddPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = D893C8DB169D8CED009C5488 /* AddPage.xib */; };
+		D893C8F8169DC54D009C5488 /* Revse.m in Sources */ = {isa = PBXBuildFile; fileRef = D893C8F6169DC54D009C5488 /* Revse.m */; };
+		D893C8F9169DC54D009C5488 /* Revse.xib in Resources */ = {isa = PBXBuildFile; fileRef = D893C8F7169DC54D009C5488 /* Revse.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D87CC7C5169C775800289DFA /* notebook truebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notebook truebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87CC7C9169C775800289DFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D87CC7CB169C775800289DFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D87CC7CD169C775800289DFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D87CC7D1169C775900289DFA /* notebook truebook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "notebook truebook-Info.plist"; sourceTree = "<group>"; };
+		D87CC7D3169C775900289DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D87CC7D5169C775900289DFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D87CC7D7169C775900289DFA /* notebook truebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "notebook truebook-Prefix.pch"; sourceTree = "<group>"; };
+		D87CC7D8169C775900289DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D87CC7D9169C775900289DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D87CC7DB169C775900289DFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D87CC7DC169C775900289DFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D87CC7DF169C775900289DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D893C8D3169D872B009C5488 /* MainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTable.h; sourceTree = "<group>"; };
+		D893C8D4169D872B009C5488 /* MainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTable.m; sourceTree = "<group>"; };
+		D893C8D5169D872B009C5488 /* MainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTable.xib; sourceTree = "<group>"; };
+		D893C8D9169D8CED009C5488 /* AddPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPage.h; sourceTree = "<group>"; };
+		D893C8DA169D8CED009C5488 /* AddPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPage.m; sourceTree = "<group>"; };
+		D893C8DB169D8CED009C5488 /* AddPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPage.xib; sourceTree = "<group>"; };
+		D893C8F5169DC54D009C5488 /* Revse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Revse.h; sourceTree = "<group>"; };
+		D893C8F6169DC54D009C5488 /* Revse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Revse.m; sourceTree = "<group>"; };
+		D893C8F7169DC54D009C5488 /* Revse.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Revse.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D87CC7C2169C775800289DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87CC7CA169C775800289DFA /* UIKit.framework in Frameworks */,
+				D87CC7CC169C775800289DFA /* Foundation.framework in Frameworks */,
+				D87CC7CE169C775900289DFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D87CC7BA169C775800289DFA = {
+			isa = PBXGroup;
+			children = (
+				D87CC7CF169C775900289DFA /* notebook truebook */,
+				D87CC7C8169C775800289DFA /* Frameworks */,
+				D87CC7C6169C775800289DFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D87CC7C6169C775800289DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87CC7C5169C775800289DFA /* notebook truebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87CC7C8169C775800289DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D87CC7C9169C775800289DFA /* UIKit.framework */,
+				D87CC7CB169C775800289DFA /* Foundation.framework */,
+				D87CC7CD169C775800289DFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D87CC7CF169C775900289DFA /* notebook truebook */ = {
+			isa = PBXGroup;
+			children = (
+				D87CC7D8169C775900289DFA /* AppDelegate.h */,
+				D87CC7D9169C775900289DFA /* AppDelegate.m */,
+				D87CC7DB169C775900289DFA /* ViewController.h */,
+				D87CC7DC169C775900289DFA /* ViewController.m */,
+				D87CC7DE169C775900289DFA /* ViewController.xib */,
+				D893C8D3169D872B009C5488 /* MainTable.h */,
+				D893C8D4169D872B009C5488 /* MainTable.m */,
+				D893C8D5169D872B009C5488 /* MainTable.xib */,
+				D893C8D9169D8CED009C5488 /* AddPage.h */,
+				D893C8DA169D8CED009C5488 /* AddPage.m */,
+				D893C8DB169D8CED009C5488 /* AddPage.xib */,
+				D893C8F5169DC54D009C5488 /* Revse.h */,
+				D893C8F6169DC54D009C5488 /* Revse.m */,
+				D893C8F7169DC54D009C5488 /* Revse.xib */,
+				D87CC7D0169C775900289DFA /* Supporting Files */,
+			);
+			path = "notebook truebook";
+			sourceTree = "<group>";
+		};
+		D87CC7D0169C775900289DFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D87CC7D1169C775900289DFA /* notebook truebook-Info.plist */,
+				D87CC7D2169C775900289DFA /* InfoPlist.strings */,
+				D87CC7D5169C775900289DFA /* main.m */,
+				D87CC7D7169C775900289DFA /* notebook truebook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D87CC7C4169C775800289DFA /* notebook truebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87CC7E3169C775900289DFA /* Build configuration list for PBXNativeTarget "notebook truebook" */;
+			buildPhases = (
+				D87CC7C1169C775800289DFA /* Sources */,
+				D87CC7C2169C775800289DFA /* Frameworks */,
+				D87CC7C3169C775800289DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "notebook truebook";
+			productName = "notebook truebook";
+			productReference = D87CC7C5169C775800289DFA /* notebook truebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D87CC7BC169C775800289DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D87CC7BF169C775800289DFA /* Build configuration list for PBXProject "notebook truebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D87CC7BA169C775800289DFA;
+			productRefGroup = D87CC7C6169C775800289DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D87CC7C4169C775800289DFA /* notebook truebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D87CC7C3169C775800289DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87CC7D4169C775900289DFA /* InfoPlist.strings in Resources */,
+				D87CC7E0169C775900289DFA /* ViewController.xib in Resources */,
+				D893C8D7169D872B009C5488 /* MainTable.xib in Resources */,
+				D893C8DD169D8CED009C5488 /* AddPage.xib in Resources */,
+				D893C8F9169DC54D009C5488 /* Revse.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D87CC7C1169C775800289DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87CC7D6169C775900289DFA /* main.m in Sources */,
+				D87CC7DA169C775900289DFA /* AppDelegate.m in Sources */,
+				D87CC7DD169C775900289DFA /* ViewController.m in Sources */,
+				D893C8D6169D872B009C5488 /* MainTable.m in Sources */,
+				D893C8DC169D8CED009C5488 /* AddPage.m in Sources */,
+				D893C8F8169DC54D009C5488 /* Revse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D87CC7D2169C775900289DFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87CC7D3169C775900289DFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D87CC7DE169C775900289DFA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87CC7DF169C775900289DFA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D87CC7E1169C775900289DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D87CC7E2169C775900289DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D87CC7E4169C775900289DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "notebook truebook/notebook truebook-Prefix.pch";
+				INFOPLIST_FILE = "notebook truebook/notebook truebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D87CC7E5169C775900289DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "notebook truebook/notebook truebook-Prefix.pch";
+				INFOPLIST_FILE = "notebook truebook/notebook truebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D87CC7BF169C775800289DFA /* Build configuration list for PBXProject "notebook truebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87CC7E1169C775900289DFA /* Debug */,
+				D87CC7E2169C775900289DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D87CC7E3169C775900289DFA /* Build configuration list for PBXNativeTarget "notebook truebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87CC7E4169C775900289DFA /* Debug */,
+				D87CC7E5169C775900289DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D87CC7BC169C775800289DFA /* Project object */;
+}
